@@ -3753,10 +3753,18 @@ p {
 	margin-top: 5px;
 	color: #f00;
 }
-p.form-message.success,
+p.form-message.success {
+	font-size: 16px;
+	color: green;
+	background: #ddd;
+	padding: 10px 15px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
 p.form-message.error {
 	font-size: 16px;
-	color: #353535;
+	color: red;
 	background: #ddd;
 	padding: 10px 15px;
 	margin-left: 15px;

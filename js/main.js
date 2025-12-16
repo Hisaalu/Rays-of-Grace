@@ -1,9 +1,9 @@
 /*
-  Theme Name: Edubin - LMS Education HTML Template
-  Author: Humayun Ahmed
-  Author URL: https://themeforest.net/user/pixelcurve
-  Support: humayunahmed82@gmail.com
-  Description: Creative  HTML5 template.
+  Theme Name: School Template
+  Author: Hisaalu Nelson
+  Author URL: https://hisaalunelson.raysofgrace.ac.ug
+  Support: hisaalujuniornelson@gmail.com
+  Description: Rays of Grace Junior School.
   Version: 1.0
 */
 

@@ -3764,7 +3764,7 @@ p.form-message.success {
 
 p.form-message.error {
 	font-size: 16px;
-	color: red;
+	color: rgb(78, 71, 71);
 	background: #ddd;
 	padding: 10px 15px;
 	margin-left: 15px;

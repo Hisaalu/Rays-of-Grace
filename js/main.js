@@ -53,17 +53,14 @@ $(function() {
 
     if(subMenu.length) {
         subMenu.parent('li').children('a').append(function () {
-            // CHANGE fa-chevron-down TO fa-plus HERE:
             return '<button class="sub-nav-toggler"> <i class="fa fa-plus"></i> </button>';
         });
         
         var subMenuToggler = $('.sub-menu-bar .navbar-nav .sub-nav-toggler');
         
         subMenuToggler.on('click', function() {
-            // Toggle the sub-menu visibility
             $(this).parent().parent().children('.sub-menu').slideToggle();
             
-            // OPTIONAL: Toggle between plus and minus icon when clicked
             $(this).children('i').toggleClass('fa-plus fa-minus');
             
             return false;
@@ -318,7 +315,7 @@ $(function() {
     });
     
     
-    //Animate the scroll to yop
+    //Animate the scroll to top
     $('.back-to-top').on('click', function(event) {
         event.preventDefault();
         

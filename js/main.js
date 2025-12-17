@@ -44,25 +44,30 @@ $(function() {
     
     
     //===== Mobile Menu
-    
+
     $(".navbar-toggler").on('click', function() {
         $(this).toggleClass("active");
     });
-    
+
     var subMenu = $('.sub-menu-bar .navbar-nav .sub-menu');
-    
+
     if(subMenu.length) {
         subMenu.parent('li').children('a').append(function () {
-            return '<button class="sub-nav-toggler"> <i class="fa fa-chevron-down"></i> </button>';
+            // CHANGE fa-chevron-down TO fa-plus HERE:
+            return '<button class="sub-nav-toggler"> <i class="fa fa-plus"></i> </button>';
         });
         
         var subMenuToggler = $('.sub-menu-bar .navbar-nav .sub-nav-toggler');
         
         subMenuToggler.on('click', function() {
+            // Toggle the sub-menu visibility
             $(this).parent().parent().children('.sub-menu').slideToggle();
-            return false
+            
+            // OPTIONAL: Toggle between plus and minus icon when clicked
+            $(this).children('i').toggleClass('fa-plus fa-minus');
+            
+            return false;
         });
-        
     }
     
     

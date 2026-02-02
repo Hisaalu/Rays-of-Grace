@@ -396,6 +396,43 @@ $(function() {
       }
     });
     
+        //===== Social Share Buttons
+
+    var shareUrl = encodeURIComponent(window.location.href);
+    var shareTitle = encodeURIComponent($('h3').first().text());
+
+    $('.share-facebook').on('click', function (e) {
+        e.preventDefault();
+        window.open(
+            'https://www.facebook.com/sharer/sharer.php?u=' + shareUrl,
+            '_blank'
+        );
+    });
+
+    $('.share-x').on('click', function (e) {
+        e.preventDefault();
+        window.open(
+            'https://twitter.com/intent/tweet?text=' + shareTitle + '&url=' + shareUrl,
+            '_blank'
+        );
+    });
+
+    $('.share-whatsapp').on('click', function (e) {
+        e.preventDefault();
+        window.open(
+            'https://wa.me/?text=' + shareTitle + '%20' + shareUrl,
+            '_blank'
+        );
+    });
+
+    $('.share-linkedin').on('click', function (e) {
+        e.preventDefault();
+        window.open(
+            'https://www.linkedin.com/sharing/share-offsite/?url=' + shareUrl,
+            '_blank'
+        );
+    });
+
     
     
     

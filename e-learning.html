@@ -5,7 +5,7 @@
     <!--====== Required meta tags ======-->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
+    <meta name="description" content="ROGELE — the Rays of Grace E-Learning Environment. Access online lessons, interactive assignments and distance learning support for Rays of Grace Junior School learners.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!--====== Title ======-->
@@ -47,85 +47,10 @@
     <!--====== social icons ======-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <!-- INBUILT CUSTOM CSS for ROGELE eLearning Section (primary colors #f06724 and #7f2677) -->
-    <style>
-        /* ROGELE custom colors override */
-        .rogele-section .section-title h5 {
-            color: #f06724 !important;
-        }
-        .rogele-section .section-title h5:after {
-            background: #f06724 !important;
-        }
-        .rogele-card .resource-icon {
-            background: rgba(240, 103, 36, 0.12) !important;
-            color: #f06724 !important;
-        }
-        .rogele-card .badge-link {
-            background: rgba(127, 38, 119, 0.08) !important;
-            color: #7f2677 !important;
-        }
-        .rogele-card .badge-link:hover {
-            background: rgba(127, 38, 119, 0.15) !important;
-            color: #5a1a55 !important;
-        }
-        .rogele-support-desk {
-            background: linear-gradient(135deg, rgba(240,103,36,0.05), rgba(127,38,119,0.05)) !important;
-            border-left: 3px solid #f06724;
-        }
-        .btn-rogele-primary {
-            background: #f06724 !important;
-            border: none;
-            transition: all 0.3s ease;
-        }
-        .btn-rogele-primary:hover {
-            background: #d45a1c !important;
-            transform: translateY(-2px);
-        }
-        .btn-rogele-secondary {
-            background: #7f2677 !important;
-            border: none;
-        }
-        .btn-rogele-secondary:hover {
-            background: #651e5e !important;
-        }
-        .rogele-address .icon {
-            background: rgba(240, 103, 36, 0.1) !important;
-            color: #f06724 !important;
-        }
-        .rogele-support-note {
-            background: rgba(127, 38, 119, 0.05) !important;
-            border-left: 4px solid #7f2677;
-        }
-        .rogele-event-item i {
-            color: #f06724;
-        }
-        .rogele-quick-link {
-            color: #7f2677 !important;
-        }
-        .rogele-quick-link:hover {
-            color: #f06724 !important;
-        }
-        .rogele-section .main-btn {
-            background: #f06724;
-        }
-        .rogele-section .main-btn:hover {
-            background: #d45a1c;
-        }
-        .rogele-text-gradient {
-            background: linear-gradient(135deg, #7f2677);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            display: inline-block;
-        }
-    </style>
-
 </head>
 
 <body>
    
-    <!--====== PRELOADER PART START ======-->
-    
     <!--====== HEADER PART START ======-->
     
     <header id="header-part">        
@@ -134,8 +59,8 @@
                 <div class="row no-gutters">
                     <div class="col-lg-11 col-md-10 col-sm-9 col-9">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="images/logo-2.png" alt="Logo">
+                            <a class="navbar-brand" href="index.html" title="Rays of Grace Junior School Home">
+                                <img src="images/logo-2.png" alt="Rays of Grace Junior School Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="icon-bar"></span>
@@ -153,7 +78,7 @@
                                         <ul class="sub-menu">
                                             <li><a href="about.html">About Our School</a></li>
                                             <li><a href="team.html">Meet Our Team</a></li>
-                                            <li><a href="#">School Profile</a></li>
+                                            <li><a href="#" title="School Profile">School Profile</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -162,7 +87,7 @@
                                             <li><a href="programs.html">Programs</a></li>
                                             <li><a href="admission.html">Admission</a></li>
                                             <li><a class="active" href="e-learning.html">Online Learning</a></li>
-                                            <li><a href="#">scholarship</a></li>
+                                            <li><a href="#" title="Scholarship">Scholarship</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
@@ -185,7 +110,7 @@
                     <div class="col-lg-1 col-md-2 col-sm-3 col-3">
                         <div class="right-icon text-right">
                             <ul>
-                                <li><a href="#" id="search"><i class="fa fa-search"></i></a></li>
+                                <li><a href="#" id="search" title="Search" aria-label="Search"><i class="fa fa-search"></i></a></li>
                             </ul>
                         </div> <!-- right icon -->
                     </div>
@@ -200,13 +125,13 @@
     
     <div class="search-box">
         <div class="serach-form">
-            <div class="closebtn">
+            <div class="closebtn" role="button" aria-label="Close search">
                 <span></span>
                 <span></span>
             </div>
             <form action="search_results.html">
-                <input type="text" name="q" placeholder="Search by keyword">
-                <button><i class="fa fa-search"></i></button>
+                <input type="text" name="q" placeholder="Search by keyword" aria-label="Search by keyword">
+                <button type="submit" title="Search" aria-label="Submit search"><i class="fa fa-search"></i></button>
             </form>
         </div> <!-- serach form -->
     </div>
@@ -215,7 +140,7 @@
    
     <!--====== PAGE BANNER PART START ======-->
     
-    <section id="page-banner" class="pt-105 pb-130 bg_cover" data-overlay="8" style="background-image: url(images/page-banner-6.jpg)">
+    <section id="page-banner" class="pt-105 pb-130 bg_cover page-banner-6" data-overlay="8">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -239,23 +164,23 @@
     <section id="rogele-elearning" class="pt-90 pb-120 gray-bg rogele-section">
         <div class="container">
             <div class="row">
-                <!-- LEFT COLUMN: eLearning content & ROGELE details -->
+                <!-- LEFT COLUMN -->
                 <div class="col-lg-8">
-                    <div class="contact-from rogele-card" style="background: #ffffff; border-radius: 20px; padding: 40px 35px; box-shadow: 0 15px 40px rgba(0,0,0,0.05);">
+                    <div class="contact-from rogele-card">
                         <div class="section-title">
                             <h5>ROGELE (Rays of Grace E-Learning Environment)</h5>
                             <h2>Rays of Grace <span class="rogele-text-gradient">E-Learning Environment</span></h2>
-                        </div> <!-- section title -->
-                        
-                        <div class="resources-list" style="display: flex; flex-direction: column; gap: 30px;">
+                        </div>
+
+                        <div class="rogele-resources-list">
                             <!-- Electronic Learning Definition -->
-                            <div class="resource-item" style="display: flex; gap: 20px; align-items: flex-start; border-bottom: 1px solid #f0f0f0; padding-bottom: 25px;">
-                                <div class="resource-icon" style="width: 60px; height: 60px; background: rgba(240,103,36,0.1); border-radius: 18px; display: flex; align-items: center; justify-content: center; font-size: 28px; color: #f06724; flex-shrink: 0;">
-                                    <i class="fa fa-laptop"></i>
+                            <div class="rogele-resource-item">
+                                <div class="rogele-resource-icon orange">
+                                    <i class="fa fa-laptop" aria-hidden="true"></i>
                                 </div>
-                                <div class="resource-content">
-                                    <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 10px;">Electronic Learning (E-Learning)</h3>
-                                    <p style="color: #4a5568; line-height: 1.6;">
+                                <div class="rogele-resource-content">
+                                    <h3>Electronic Learning (E-Learning)</h3>
+                                    <p>
                                         A mode of delivering and making content accessible to our 
                                         learners via the web/online (Online Learning), computer 
                                         networks, CD/DVD, mobile phones, and other electronic 
@@ -265,117 +190,116 @@
                                     </p>
                                 </div>
                             </div>
-                            
+
                             <!-- ROGELE Platform Introduction -->
-                            <div class="resource-item" style="display: flex; gap: 20px; align-items: flex-start; border-bottom: 1px solid #f0f0f0; padding-bottom: 25px;">
-                                <div class="resource-icon" style="width: 60px; height: 60px; background: rgba(127,38,119,0.1); border-radius: 18px; display: flex; align-items: center; justify-content: center; font-size: 28px; color: #7f2677; flex-shrink: 0;">
-                                    <i class="fa fa-cloud-upload"></i>
+                            <div class="rogele-resource-item">
+                                <div class="rogele-resource-icon purple">
+                                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
                                 </div>
-                                <div class="resource-content">
-                                    <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 10px;">ROGELE Platform <span style="font-size: 0.9rem; background: #f06724; color: white; padding: 2px 10px; border-radius: 30px; margin-left: 10px;">LMS</span></h3>
-                                    <p style="color: #4a5568; line-height: 1.6;"><strong>
-                                        Rays of Grace E-Learning Environment (ROGELE)</strong> is our dedicated Learning 
+                                <div class="rogele-resource-content">
+                                    <h3>ROGELE Platform <span class="rogele-badge-lms">LMS</span></h3>
+                                    <p><strong>Rays of Grace E-Learning Environment (ROGELE)</strong> is our dedicated Learning 
                                         Platform where teachers upload learning materials, interactive assignments,
                                         quizzes, and track student progress. Access ROGELE to join virtual classrooms, download 
                                         resources, collaborate with peers, and submit assignments online.
                                     </p>
-                                    <div style="display: flex; gap: 15px; margin-top: 18px; flex-wrap: wrap;">
-                                        <a href="https://www.rogele.raysofgrace.ac.ug/" target="_blank" class="badge-link" style="background: rgba(240,103,36,0.1); padding: 8px 22px; border-radius: 40px; text-decoration: none; font-weight: 500; color: #f06724; transition: 0.3s;"><i class="fa fa-sign-in"></i> Access ROGELE here</a>
+                                    <div class="rogele-badge-row">
+                                        <a href="https://www.rogele.raysofgrace.ac.ug/" target="_blank" rel="noopener" class="rogele-badge-link" title="Access ROGELE e-learning platform"><i class="fa fa-sign-in" aria-hidden="true"></i> Access ROGELE here</a>
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Distance Learning Support -->
-                            <div class="resource-item" style="display: flex; gap: 20px; align-items: flex-start; border-bottom: 1px solid #f0f0f0; padding-bottom: 25px;">
-                                <div class="resource-icon" style="width: 60px; height: 60px; background: rgba(240,103,36,0.1); border-radius: 18px; display: flex; align-items: center; justify-content: center; font-size: 28px; color: #f06724; flex-shrink: 0;">
-                                    <i class="fa fa-university"></i>
+                            <div class="rogele-resource-item">
+                                <div class="rogele-resource-icon orange">
+                                    <i class="fa fa-university" aria-hidden="true"></i>
                                 </div>
-                                <div class="resource-content">
-                                    <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 10px;">Open, Distance & E-Learning</h3>
-                                    <p style="color: #4a5568; line-height: 1.6;">
+                                <div class="rogele-resource-content">
+                                    <h3>Open, Distance & E-Learning</h3>
+                                    <p>
                                         At Rays of Grace Junior School, we embrace flexible learning modalities. 
                                         Through the Distance Learning Unit, we operationalize Open and Distance eLearning, 
                                         providing resources, training, and support for both students and facilitators to 
                                         ensure quality online education.
                                     </p>
-                                    <a href="https://rogele.raysofgrace.ac.ug/privacy-policy" target="_blank" class="badge-link" style="background: rgba(127,38,119,0.08); display: inline-flex; align-items: center; gap: 8px; padding: 6px 18px; border-radius: 40px; text-decoration: none; color: #7f2677;"><i class="fa fa-file-text"></i> Distance Learning Policy</a>
+                                    <a href="https://rogele.raysofgrace.ac.ug/privacy-policy" target="_blank" rel="noopener" class="rogele-badge-link purple" title="View Distance Learning Policy"><i class="fa fa-file-text" aria-hidden="true"></i> Distance Learning Policy</a>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Support Desk -->
-                        <div class="rogele-support-desk" style="margin-top: 40px; background: #fef9f5; border-radius: 20px; padding: 20px 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;">
+                        <div class="rogele-support-desk">
                             <div>
-                                <i class="fa fa-headset" style="font-size: 32px; color: #f06724;"></i>
-                                <span style="font-weight: 700; margin-left: 10px; font-size: 1.1rem;">ROGELE Support Desk</span>
-                                <p style="margin: 8px 0 0 0; font-size: 0.85rem; color: #5a626e;">Technical assistance, ROGELE onboarding & online learning advisory</p>
+                                <i class="fa fa-headset" aria-hidden="true"></i>
+                                <span class="desk-title">ROGELE Support Desk</span>
+                                <p>Technical assistance, ROGELE onboarding &amp; online learning advisory</p>
                             </div>
-                            <a href="https://rogele.raysofgrace.ac.ug/contact" target="_blank" class="main-btn" style="background: #7f2677; padding: 10px 28px; border-radius: 40px; color: white; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 8px;">Submit Form <i class="fa fa-ticket-alt"></i></a>
+                            <a href="https://rogele.raysofgrace.ac.ug/contact" target="_blank" rel="noopener" class="rogele-support-btn" title="Submit support form to ROGELE">Submit Form <i class="fa fa-ticket-alt" aria-hidden="true"></i></a>
                         </div>
                     </div> <!-- contact-from -->
                 </div>
-                
-                <!-- RIGHT COLUMN: Contact & Support Info (Enhanced with ROGELE details) -->
+
+                <!-- RIGHT COLUMN -->
                 <div class="col-lg-4">
-                    <div class="contact-address rogele-address" style="background: #ffffff; border-radius: 20px; padding: 35px 28px; box-shadow: 0 15px 35px rgba(0,0,0,0.05); margin-bottom: 30px;">
+                    <div class="contact-address rogele-address rogele-address-card">
                         <div class="contact-heading">
-                            <h5 style="color: #f06724; font-weight: 700;">ROGELE Support Hub</h5>
-                            <p style="color: #4a5568;">
+                            <h5>ROGELE Support Hub</h5>
+                            <p>
                                 For inquiries regarding ROGELE, distance programmes, or 
                                 technical support, reach out to our dedicated team.
                             </p>
                         </div>
-                        <ul style="list-style: none; padding-left: 0;">
-                            <li style="margin-bottom: 25px;">
-                                <div class="singel-address" style="display: flex; gap: 15px; align-items: center;">
-                                    <div class="icon" style="width: 50px; height: 50px; background: rgba(240,103,36,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #f06724; font-size: 22px;">
-                                        <i class="fa fa-map-marker"></i>
+                        <ul class="rogele-address-list">
+                            <li>
+                                <div class="rogele-address-row">
+                                    <div class="rogele-address-icon orange">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
                                     </div>
                                     <div class="cont">
-                                        <p style="margin: 0; font-weight: 500;">Kirugu, Njeru Municipality<br>Buikwe District, Uganda</p>
-                                        <small style="color: #7f2677;">Rays of Grace Junior School</small>
+                                        <p><strong>Kirugu, Njeru Municipality</strong><br>Buikwe District, Uganda</p>
+                                        <small>Rays of Grace Junior School</small>
                                     </div>
                                 </div>
                             </li>
-                            <li style="margin-bottom: 25px;">
-                                <div class="singel-address" style="display: flex; gap: 15px; align-items: center;">
-                                    <div class="icon" style="width: 50px; height: 50px; background: rgba(127,38,119,0.08); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #7f2677; font-size: 22px;">
-                                        <i class="fa fa-phone"></i>
+                            <li>
+                                <div class="rogele-address-row">
+                                    <div class="rogele-address-icon purple">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
                                     </div>
                                     <div class="cont">
-                                        <p style="margin: 0;">+256 778 086 883</p>
-                                        <p style="margin: 0;">+256 707 610 551</p>
+                                        <p>+256 778 086 883</p>
+                                        <p>+256 707 610 551</p>
                                     </div>
                                 </div>
                             </li>
-                            <li style="margin-bottom: 25px;">
-                                <div class="singel-address" style="display: flex; gap: 15px; align-items: center;">
-                                    <div class="icon" style="width: 50px; height: 50px; background: rgba(240,103,36,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #f06724; font-size: 22px;">
-                                        <i class="fa fa-envelope-o"></i>
+                            <li>
+                                <div class="rogele-address-row">
+                                    <div class="rogele-address-icon orange">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
                                     </div>
                                     <div class="cont">
-                                        <p style="margin: 0;">info@raysofgrace.ac.ug</p>
-                                        <p style="margin: 0;">nelson.hisaalu@gmail.com</p>
+                                        <p>info@raysofgrace.ac.ug</p>
+                                        <p>nelson.hisaalu@gmail.com</p>
                                     </div>
                                 </div>
                             </li>
                         </ul>
-                        <div class="rogele-support-note" style="margin-top: 20px; background: #faf5ff; padding: 16px 18px; border-radius: 16px;">
-                            <i class="fa fa-graduation-cap" style="color: #7f2677; margin-right: 8px;"></i> 
-                            <strong style="color: #7f2677;">ROGELE Help Center:</strong> Password reset, class enrollment, offline content & technical support available Mon-Fri, 8am-5pm.
-                            <div style="margin-top: 12px;">
-                                <a href="https://rogele.raysofgrace.ac.ug" target="_blank" class="rogele-quick-link" style="color: #f06724; text-decoration: none; font-weight: 500;">FAQs & Video Tutorials <i class="fa fa-arrow-right"></i></a>
+                        <div class="rogele-support-note">
+                            <i class="fa fa-graduation-cap" aria-hidden="true"></i> 
+                            <strong>ROGELE Help Center:</strong> Password reset, class enrollment, offline content &amp; technical support available Mon-Fri, 8am-5pm.
+                            <div class="quick-link-wrap">
+                                <a href="https://rogele.raysofgrace.ac.ug" target="_blank" rel="noopener" title="ROGELE FAQs and video tutorials">FAQs &amp; Video Tutorials <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Quick ROGELE Stats -->
-                    <div style="background: linear-gradient(135deg, #7f2677); border-radius: 20px; padding: 24px; margin-top: 30px; text-align: center; color: white;">
-                        <h4 style="font-weight: 700; color: #f06724; margin-bottom: 8px;">ROGELE</h4>
-                        <div style="display: flex; justify-content: space-around; margin-top: 20px;">
-                            <div><span style="font-size: 1.8rem; font-weight: 800;">100+</span><br>Online Lessons</div>
-                            <div><span style="font-size: 1.8rem; font-weight: 800;">24/7</span><br>Access</div>
-                            <div><span style="font-size: 1.8rem; font-weight: 800;">500+</span><br>Active Learners</div>
+                    <div class="rogele-stats">
+                        <h4>ROGELE</h4>
+                        <div class="rogele-stats-row">
+                            <div><span class="num">100+</span><br>Online Lessons</div>
+                            <div><span class="num">24/7</span><br>Access</div>
+                            <div><span class="num">500+</span><br>Active Learners</div>
                         </div>
                     </div>
                 </div>
@@ -392,16 +316,16 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-about mt-40">
                             <div class="logo">
-                                <a href="index.html"><img src="images/logo-2.png" alt="Logo"></a>
+                                <a href="index.html" title="Rays of Grace Junior School Home"><img src="images/logo-2.png" alt="Rays of Grace Junior School Logo"></a>
                             </div>
                             <p>Knowledge Changing Lives Forever</p>
                             <ul class="mt-20">
-                                <li><a href="https://www.facebook.com/profile.php?id=100057146993995" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://x.com/raysofgracejr" target="_blank"><i class="fab fa-x-twitter"></i></a></li>
-                                <li><a href="https://www.instagram.com/raysofgraceacademyuganda" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://www.youtube.com/@raysofgraceacademy" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                                <li><a href="https://www.tiktok.com/@raysofgracejr" target="_blank"><i class="fab fa-tiktok"></i></a></li>
-                                <li><a href="https://wa.me/256778086883" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100057146993995" target="_blank" rel="noopener" title="Facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://x.com/raysofgracejr" target="_blank" rel="noopener" title="X (Twitter)" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/raysofgraceacademyuganda" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/@raysofgraceacademy" target="_blank" rel="noopener" title="YouTube" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="https://www.tiktok.com/@raysofgracejr" target="_blank" rel="noopener" title="TikTok" aria-label="TikTok"><i class="fab fa-tiktok"></i></a></li>
+                                <li><a href="https://wa.me/256778086883" target="_blank" rel="noopener" title="WhatsApp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -411,18 +335,18 @@
                                 <h6>Quick Links</h6>
                             </div>
                             <ul>
-                                <li><a href="about.html"><i class="fa fa-angle-right"></i>Overview</a></li>
-                                <li><a href="programs.html"><i class="fa fa-angle-right"></i>Programs</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Scholarships</a></li>
-                                <li><a href="events.html"><i class="fa fa-angle-right"></i>Events</a></li>
-                                <li><a href="blog.html"><i class="fa fa-angle-right"></i>News</a></li>
+                                <li><a href="about.html" title="Overview"><i class="fa fa-angle-right"></i>Overview</a></li>
+                                <li><a href="programs.html" title="Programs"><i class="fa fa-angle-right"></i>Programs</a></li>
+                                <li><a href="#" title="Scholarships"><i class="fa fa-angle-right"></i>Scholarships</a></li>
+                                <li><a href="events.html" title="Events"><i class="fa fa-angle-right"></i>Events</a></li>
+                                <li><a href="blog.html" title="News"><i class="fa fa-angle-right"></i>News</a></li>
                             </ul>
                             <ul>
-                                <li><a href="programs.html"><i class="fa fa-angle-right"></i>Apply Now</a></li>
-                                <li><a href="document.html"><i class="fa fa-angle-right"></i>Documents</a></li>
-                                <li><a href="https://raysofgraceacademy.org/" target="_blank"><i class="fa fa-angle-right"></i>Our Academy</a></li>
-                                <li><a href="https://www.hoffmanfamilyfoundation.co/" target="_blank"><i class="fa fa-angle-right"></i>HFF</a></li>
-                                <li><a href="contact.html"><i class="fa fa-angle-right"></i>Contact</a></li>
+                                <li><a href="programs.html" title="Apply Now"><i class="fa fa-angle-right"></i>Apply Now</a></li>
+                                <li><a href="document.html" title="Documents"><i class="fa fa-angle-right"></i>Documents</a></li>
+                                <li><a href="https://raysofgraceacademy.org/" target="_blank" rel="noopener" title="Our Academy"><i class="fa fa-angle-right"></i>Our Academy</a></li>
+                                <li><a href="https://www.hoffmanfamilyfoundation.co/" target="_blank" rel="noopener" title="Hoffman Family Foundation"><i class="fa fa-angle-right"></i>HFF</a></li>
+                                <li><a href="contact.html" title="Contact"><i class="fa fa-angle-right"></i>Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -432,11 +356,11 @@
                                 <h6>Support</h6>
                             </div>
                             <ul>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>FAQS</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Privacy</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Policy</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Support</a></li>
-                                <li><a href="e-learning.html"><i class="fa fa-angle-right"></i>Learning Online</a></li>
+                                <li><a href="#" title="FAQs"><i class="fa fa-angle-right"></i>FAQS</a></li>
+                                <li><a href="#" title="Privacy Policy"><i class="fa fa-angle-right"></i>Privacy</a></li>
+                                <li><a href="#" title="Policy"><i class="fa fa-angle-right"></i>Policy</a></li>
+                                <li><a href="#" title="Support"><i class="fa fa-angle-right"></i>Support</a></li>
+                                <li><a href="e-learning.html" title="Learning Online"><i class="fa fa-angle-right"></i>Learning Online</a></li>
                             </ul>
                         </div>
                     </div>
@@ -469,7 +393,7 @@
     </footer>
     
     <!--====== BACK TO TOP ======-->
-    <a href="#" class="back-to-top"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
+    <a href="#" class="back-to-top" title="Back to top" aria-label="Back to top"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
     
     <!--====== SCRIPTS ======-->
     <script src="js/vendor/modernizr-3.6.0.min.js"></script>
